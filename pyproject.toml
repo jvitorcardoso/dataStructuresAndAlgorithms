@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "dsa"
+version = "0.1.0"
+description = ""
+authors = ["jvitorcardoso <aspirantevitor@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+jupyterlab = "^4.2.4"
+ipykernel = "^6.29.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
